@@ -160,4 +160,5 @@ These are known and intentional trade-offs.
   - Visualization of causal graphs
   - Streaming / near-real-time analysis
   - More log format adapters
+
 Contributions, feedback, and ideas are welcome.
