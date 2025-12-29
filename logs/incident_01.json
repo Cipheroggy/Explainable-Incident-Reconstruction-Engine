@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2025-01-10T12:01:00Z",
+    "service": "db",
+    "event": "CONNECTION_POOL_EXHAUSTED",
+    "severity": "ERROR",
+    "request_id": null,
+    "metadata": {
+      "dependency": null,
+      "latency_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-01-10T12:01:02Z",
+    "service": "auth",
+    "event": "DB_CONNECTION_FAILED",
+    "severity": "ERROR",
+    "request_id": "req-1",
+    "metadata": {
+      "dependency": "db",
+      "latency_ms": null
+    }
+  },
+  {
+    "timestamp": "2025-01-10T12:01:04Z",
+    "service": "api",
+    "event": "AUTH_SERVICE_UNAVAILABLE",
+    "severity": "ERROR",
+    "request_id": "req-1",
+    "metadata": {
+      "dependency": "auth",
+      "latency_ms": null
+    }
+  }
+]
