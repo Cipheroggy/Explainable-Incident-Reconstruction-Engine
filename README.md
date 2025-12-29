@@ -126,7 +126,7 @@ A single normalized file:
 ```
 This file is the only input required by the analysis engine.
 
-Step 2: Analyze Incidents
+## Step 2: Analyze Incidents
 
 Run the analysis engine on normalized logs:
 ```
@@ -152,6 +152,7 @@ Impact Summary:
   - Time-window based propagation (configurable but heuristic)
   - Does not infer unknown dependencies automatically
   - Best suited for single dominant incident per time window
+
 These are known and intentional trade-offs.
 
 ## Future Improvements (Open to Contributions)
